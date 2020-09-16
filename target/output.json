@@ -1,0 +1,335 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verifying the login details with credentials",
+        "description": "",
+        "id": "book-a-hotel-in-adactin;verifying-the-login-details-with-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11840613767,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page",
+            "match": {
+              "location": "Login_Page.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 949957732,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the \"rajaselenium\" and \"raja123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rajaselenium\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"raja123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Login_Page.user_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4724303298,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "Login_Page.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Search the Hotel details",
+        "description": "",
+        "id": "book-a-hotel-in-adactin;search-the-hotel-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22129582,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on Search Hotel page",
+            "match": {
+              "location": "SearchHotelPage.user_is_on_Search_Hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1239919835,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select the details \"Sydney\" and \"Hotel Creek\" and \"Standard\" and \"4 - Four\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 70
+                }
+              ],
+              "location": "SearchHotelPage.user_select_the_details_and_and_and(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 561620787,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter the date \"09/10/2020\" and \"10/10/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09/10/2020\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"10/10/2020\"",
+                  "offset": 37
+                }
+              ],
+              "location": "SearchHotelPage.user_enter_the_date_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 514716805,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select the person details \"2 - Two\" and \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 45
+                }
+              ],
+              "location": "SearchHotelPage.user_select_the_person_details_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1713504477,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click the Search button",
+            "match": {
+              "location": "SearchHotelPage.user_click_the_Search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Verifying the Selected details",
+        "description": "",
+        "id": "book-a-hotel-in-adactin;verifying-the-selected-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 516037,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is on Select Hotel page",
+            "match": {
+              "location": "SelectHotel.user_is_on_Select_Hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 270374747,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should select the Hotel",
+            "match": {
+              "location": "SelectHotel.user_should_select_the_Hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1448438346,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should click the continue button",
+            "match": {
+              "location": "SelectHotel.user_should_click_the_continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Verifying the Booking details",
+        "description": "",
+        "id": "book-a-hotel-in-adactin;verifying-the-booking-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 215956,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on Hotel Booking page",
+            "match": {
+              "location": "BookHotelPage.user_is_on_Hotel_Booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1048105846,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Enter the \"Raja\" and \"murugan\" and \"Chennai, OMR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raja\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"murugan\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Chennai, OMR\"",
+                  "offset": 40
+                }
+              ],
+              "location": "BookHotelPage.user_Enter_the_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1729953034,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User Enter the Creditcard details",
+            "match": {
+              "location": "BookHotelPage.user_Enter_the_Creditcard_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CreditCardNo",
+                  "CardType",
+                  "Exp_Month",
+                  "Exp_Year",
+                  "CVV"
+                ]
+              },
+              {
+                "cells": [
+                  "8766789876545678",
+                  "VISA",
+                  "July",
+                  "2022",
+                  "2345"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12418798526,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User should click the BookNow button",
+            "match": {
+              "location": "BookHotelPage.user_should_click_the_BookNow_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag4"
+          }
+        ]
+      }
+    ],
+    "name": "Book a Hotel in adactin",
+    "description": "",
+    "id": "book-a-hotel-in-adactin",
+    "keyword": "Feature",
+    "uri": "src/test/resources/adactinfeaturefile.feature",
+    "tags": []
+  }
+]
